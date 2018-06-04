@@ -19,6 +19,7 @@ function iLoveTheBeatles(n){
   var i=0;
   do{
     array[i]="I love the Beatles!";
-    
-  }
+    n++;
+    i++;
+  } while(n<15);
 }
